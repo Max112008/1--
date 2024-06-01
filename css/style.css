@@ -1,0 +1,50 @@
+.hh{
+	text-align:center;
+	color:Cyan;
+	font-size:3em;
+}
+.hh2{
+	font-size:3.4em;
+	text-align:left;
+	color:Cyan;
+}
+.hh3{
+	font-size:4em;
+	text-align:center;
+	color:Cyan;
+}
+html {
+	background-image:url(images/background.jpg);
+}
+.content {
+display:flex;
+}
+.text{float:left}
+#navbar {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#navbar li { display: inline; }
+#navbar {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  border: 2px solid #0066FF;
+  border-radius: 5px 5px;
+  width: 1900px;
+  text-align: center;
+  background-color: #33ADFF;
+}
+#navbar a {
+  color: #fff;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  width: 350px;
+}
+#navbar a:hover {
+  border-radius: 20px 5px;
+  background-color: #0066FF;
+}
